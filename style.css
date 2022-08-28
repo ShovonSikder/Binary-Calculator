@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+.calculator {
+    width: 50%;
+    margin: auto;
+    border: 1px solid rgb(191, 167, 167);
+}
+
+#display {
+    border: 2px solid;
+    background-color: lightgrey;
+    height: 40px;
+    width: 100%;
+    text-align: right;
+    padding: 6px 5px 0px 5px;
+    font-size: 18px;
+}
+
+.button-set {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    width: 25%;
+    margin: 0;
+    height: 36px;
+    font-size: 18px;
+    text-align: center;
+    border-color: white;
+    cursor: pointer;
+}
+.num-button{
+    background-color: rgb(5, 221, 149);
+}
+.utility-button{
+    background-color: darkgreen;
+    color: white;
+}
+.operation-button{
+    background-color: black;
+    color: red;
+}
